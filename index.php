@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 require_once __DIR__ . '/vendor/autoload.php';
 
 use App\User;
@@ -100,4 +101,5 @@ $users = $user->getAllUsers();
         <?php endif; ?>
     </div>
 </body>
+
 </html>
